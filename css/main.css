@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Neon1";
+    src: url(../font/Neon.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Neon2";
+    src: url(../font/Neon3.ttf) format("truetype");
+}   
+@font-face {
+    font-family: "Neon3";
+    src: url(../font/Neon4.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Hunters";
+    src: url(../font/Hunters.otf) format("truetype");
+}
+@font-face {
+    font-family: "Lazer";
+    src: url(../font/Lazer84.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Razor";
+    src: url(../font/Razor.otf) format("truetype");
+}
+@font-face {
+    font-family: "SFA";
+    src: url(../font/SFA.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Streamster";
+    src: url(../font/Streamster.ttf) format("truetype");
+}
+@font-face {
+    font-family: "VCR";
+    src: url(../font/VCR.ttf) format("truetype");
+}
+@font-face {
+    font-family: "BSD";
+    src: url(../font/BSD.ttf) format("truetype");
+}
+@font-face {
+    font-family: "BSD2";
+    src: url(../font/BSD2.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Clip";
+    src: url(../font/Clip.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Neon4";
+    src: url(../font/NEON_.TTF) format("truetype");
+}
+
+/*Available fonts : "Neon1" "Neon2" "Neon3" "Neon4" "Hunters" "Lazer" "SFA" "Razer" "Streamster" "VCR" "BSD" "BSD2" "Clip" */
+* {
+    box-sizing: border-box;
+}
+
+body {
+	cursor: url('../img/Cursor.cur'), default;
+}
+
+.cardop{
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.skills_card{
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    /* bottom, image */
+    url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.header {
+    /*text-align: center;*/
+}
+
+.row-img {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    filter : brightness(60%);
+}
+
+
+.img__description_layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+  }
+  .xp-title{
+      font-size:2em;
+      font-family: "Lazer";
+  }
+  .img__description {
+    font-size: 1.5em;
+    font-family:  "VCR"; 
+    transition: .2s;
+    transform: translateY(1em);
+  }
+  
+  .img__wrap:hover .img__description {
+    transform: translateY(0);
+  }
+
+  .img__wrap{
+      position: relative;
+      cursor: url('../img/Hand.cur'), default; 
+  }
+
+  .exp_content{
+      font-family: "VCR";
+  }
+
+  .dowload__btn{
+      width: 150px;
+  }
+  .half__btn{
+    width: 70px;
+    filter : brightness(60%);
+  }
+  .half__btn:hover{
+      filter:none;
+  }
+.img__flag{
+    width: 30px;
+    margin-top: 6px;
+}
+#btn__after{
+    display: none;
+}
