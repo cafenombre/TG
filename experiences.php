@@ -65,16 +65,16 @@
             </p>
             <br>
 
-            <!-- Benevolat Zen-->
-            <p><b>Community Manager</b> - <i>Zen Event's</i>- Perpignan</p>
-            <p>2012 à 2013</p>
-            <p>Création du site web de l'association et recherche de sponsor</p>
+            <!-- Vajra-->
+            <p><b>Développeur Junior PHP (Bénévolat)</b> - <i>Institue Vajra Yogini</i>- Lavaur</p>
+            <p>Octobre 2018 à Juin 2019</p>
+            <p>Création d'un système d'attribution de chambres/dortoirs pour les séminaires de l'institut.</p>
             <br>
 
             <!-- Benevolat Zen-->
-            <p><b>Community Manager</b> - <i>Zen Event's</i>- Perpignan</p>
-            <p>2012 à 2013</p>
-            <p>Création du site web de l'association et recherche de sponsor</p>
+            <p><b>Développeur C# .Net</b> - <i>Liebherr Aerospace</i>- Toulouse</p>
+            <p>Juin à Juillet 2019</p>
+            <p> Maintenance d'une application web de gestion des réparations de pièces aéronautiques. </p>
             <br>
 
             </div>
